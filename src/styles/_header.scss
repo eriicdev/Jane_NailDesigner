@@ -1,0 +1,58 @@
+.header{
+    background-color: rgb(100, 6, 138);
+    padding: 20px;
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        &__item{
+            color: #fff;
+        }
+    }
+
+    &__logo{
+        display: block;
+        width: 200px;
+    }
+
+    &__whatsapp{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+
+    &__contato{
+        display: flex;
+        padding: 12px;
+        margin-top: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+        border: 2px solid;
+        border-radius: 20px;
+    }
+
+    
+
+    @media (max-width:640px){
+        &__logo{
+            width: 150px;
+            padding-top: 8px;
+        }
+        &__contato{
+            display: flex;
+            padding: 8px;
+            margin-top: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+    }
+}
