@@ -43,20 +43,34 @@
     
 
     @media (max-width:640px){
-        &__logo{
-            width: 150px;
-            padding-top: 8px;
+        &__list{
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+
+            &__item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
+        
+        &__logo{
+            width: 250px;
+            margin-top: 24px;
+            margin-right: 36px;
+            }
+
         &__contato{
             display: flex;
-            padding: 8px;
-            margin-top: 20px;
+            align-items: center;
             text-decoration: none;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 12px;
             color: #fff;
             border: 2px solid;
             border-radius: 20px;
+            margin-left: 36px;
         }
     }
 }
