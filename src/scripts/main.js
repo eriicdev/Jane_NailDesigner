@@ -1,3 +1,6 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 document.addEventListener('DOMContentLoaded' , function() {
     const questions = document.querySelectorAll('[data-faq-question]');
     for (let i = 0; i < questions.length; i++){
