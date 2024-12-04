@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jane NailDesigner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -14,7 +19,7 @@
                     <img class="header__logo" src="images/janenormal.png" alt="Jane Naildesigner">
                 </li>
                 <li class="header__list__item">
-                    <a class="header__contato" href="#">
+                    <a class="header__contato" href="https://api.whatsapp.com/qr/SIDHH47U2IWDG1?autoload=1&app_absent=0" target="_blank">
                         Entre em contato
                         <img class="header__whatsapp" src="images/whatsapp.png" alt="">
                     </a>
@@ -22,5 +27,87 @@
             </ul>
         </div>
     </header>
+    <section class="carrossel">
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel-fade carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="img" src="images/JANEF1.png" alt="Modelo de unhas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000" >
+                        <img class="img" src="images/JANEF2.jpg" alt="Modelo de unhas2">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="2000">
+                        <img class="img" src="images/JANEF3.jpg" alt="Modelo de unhas3">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text">
+        <div class="container">
+            <h2 class="text__title"><span id="agende">Agende</span> seu Horário!</h2>
+            <div class="text__description">
+                <p>
+                    Nossas vagas estão abertas para este fim de ano! Entre em contato conosco para agendar o seu horário. Permita-se esse momento de autocuidado!
+                </p>
+                <h4>Você<span id="agende"> Merece!</span></h4>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <h2 class="faq__title">Perguntas Frequentes</h2>
+            <ul class="faq__questions">
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__pergunta" data-faq-question>
+                        Qual o endereço?
+                    </div>
+                    <div class="faq__questions__item__resposta">
+                        Estamos localizados na rua Brás   mileo,N°3435, Bairro: Perpétuo socorro. 
+
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__pergunta" data-faq-question>
+                        Você trabalha com alongamento de unha?
+                    </div>
+                    <div class="faq__questions__item__resposta">
+                        Sim, postiça, soft gel e unha em gel.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__pergunta" data-faq-question>
+                        Você oferece serviço de pedicure também ? 
+                    </div>
+                    <div class="faq__questions__item__resposta">
+                        Sim! fazemos SPA dos pés também.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__pergunta" data-faq-question>
+                        Aceitam cartão de crédito?
+                    </div>
+                    <div class="faq__questions__item__resposta">
+                        Sim, cartão de crédito, Pix e dinheiro.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

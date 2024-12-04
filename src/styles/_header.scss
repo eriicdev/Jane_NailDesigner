@@ -1,5 +1,7 @@
+@use 'variables';
+
 .header{
-    background-color: rgb(100, 6, 138);
+    background-color: variables.$purple1;
     padding: 20px;
 
     &__list{
@@ -9,6 +11,7 @@
 
         &__item{
             color: #fff;
+
         }
     }
 
@@ -22,6 +25,7 @@
         width: 20px;
         height: 20px;
         margin-left: 8px;
+        margin-top: 5px;
     }
 
     &__contato{

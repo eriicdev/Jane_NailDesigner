@@ -1,4 +1,8 @@
 @use 'header';
+@use 'carrossel';
+@use 'variables';
+@use 'sectionClass';
+@use 'faq';
 
 *{
     padding: 0;
@@ -7,7 +11,15 @@
 }
 
 .container{
-    max-width: 960px;
+    max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width:1024px){
+        max-width: 80%;
+    }
+
+    @media (max-width:640px){
+        max-width: 90%;
+    }
 }

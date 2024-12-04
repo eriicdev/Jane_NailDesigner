@@ -1,0 +1,31 @@
+@use 'variables';
+
+.text{
+    padding: 36px;
+    background-image:linear-gradient(variables.$purple2, variables.$purple1);
+
+    &__title{
+        font-size: 36px;
+        text-align: center;
+        color: variables.$branco;
+        font-family: "Pacifico", cursive;
+        border-bottom: solid 2px variables.$dourado    ;
+    }
+
+    &__description{
+        padding-top: 24px;
+        font-family: "Roboto", sans-serif;
+        color: variables.$branco;
+        font-size: 18px;
+    }
+}
+#agende{
+    color: variables.$dourado;
+}
+
+h4{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Pacifico", cursive;
+    border-bottom: solid 2px variables.$dourado    ;;
+}
